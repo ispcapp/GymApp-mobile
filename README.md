@@ -19,13 +19,13 @@
 -Garantizar una interfaz accesible e inclusiva que posibilite navegar a clientes extranjeros y con capacidades diferentes.
 -Asegurar las gestiones de pago de manera rápida y segura, protegiendo sus datos personales.
 
-## Integrantes  🦈 :trollface:
+## Integrantes
 
 - [Matías Gonzalez](https://github.com/MatiasGonzalez1)
-- [Bazan Axel Esteban](https://github.com/AxelBazan98)
-- [Ávila Rocío](https://github.com/rocioAvila)
-- [Colombo Jose](https://github.com/josecolombotk)
-- [Moisés Mayra](https://github.com/Mayri1)
+- [Axel Esteban Bazan](https://github.com/AxelBazan98)
+- [Rocío Ávila](https://github.com/rocioAvila)
+- [Jose Luis Colombo](https://github.com/josecolombotk)
+- [Mayra Moisés](https://github.com/Mayri1)
 - [Carlos Ferri Del Castillo](https://github.com/Carlos-Ferri-Del-Castillo)
 - [Ana Laura Grosso](https://github.com/Laurix86)
 - [Francisco Ignacio Junco Lasagno](https://github.com/FranJL075)
