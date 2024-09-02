@@ -38,7 +38,7 @@
 
 ## Tecnologías:
 
-- [Java (Lenguaje de programación multiplataforma, orientado a objetos y centrado en la red)]((https://docs.oracle.com/en/java/))
+- [Java (Lenguaje de programación multiplataforma, orientado a objetos y centrado en la red)](https://docs.oracle.com/en/java/)
 - [Django (Marco web Python de alto nivel que permite el desarrollo rápido de sitios web seguros y fáciles de mantener)](https://www.djangoproject.com/)
 - [Android Studio (entorno de desarrollo integrado (IDE) especializado en crear aplicaciones para sistemas operativos Android)](https://developer.android.com/?hl=es-419)
 
