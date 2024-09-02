@@ -1,7 +1,7 @@
 # GymApp
 
 # Introducción
->>*En este Proyecto participaremos en el desarrollo de una app móvil que pertenece al rubro de servicios de entrenamiento personalizado, correspondiente al segundo semestre del segundo año de la Tecnicatura en Desarrollo web y de aplicaciones digitales del ISPC. Simulando, la gestión administrativa, registro, información relevante, reserva de turnos, etc.
+>>* En este Proyecto participaremos en el desarrollo de una app móvil que pertenece al rubro de servicios de entrenamiento personalizado, correspondiente al segundo semestre del segundo año de la Tecnicatura en Desarrollo web y de aplicaciones digitales del ISPC. Simulando, la gestión administrativa, registro, información relevante, reserva de turnos, etc.
 
 ## Objetivo Generales :dart:
 
@@ -9,6 +9,9 @@
 - Facilitar la gestión de los clientes y poderles permitir reservar clases, consultar horarios y acceder a su información personal de manera sencilla.
 - Ofrecer contenido educativo para que los clientes puedan acceder a recursos de manera que pueda ayudar de manera general a alcanzar sus objetivos de forma segura y efectiva.
 - Facilitar la primera interacción y crear una comunidad activa para fomentar la comunicación a través de la aplicación, permitiendo motivar a los clientes y que se sientan parte de una comunidad comprometida.
+- Ofrecer contenido educativo para que los clientes puedan acceder a recursos de manera que pueda ayudar de manera general a alcanzar sus objetivos de forma segura y efectiva.
+- Facilitar la primera interacción y crear una comunidad activa para fomentar la comunicación a través de la aplicación, permitiendo motivar a los clientes y que se sientan parte de una comunidad comprometida.
+
 
 ## Objetivos Específicos :dart:
 
