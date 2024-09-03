@@ -17,16 +17,17 @@
 ## Objetivos Específicos :dart:
 
 - Facilitar la gestión personal de clientes en una interfaz amigable, dinámica y atractiva.
-
--Ofrecer a los clientes recursos educativos online con disponibilidad 24/7
-
--Fortalecer la motivación de los clientes creando una comunidad activa que fomente la interacción por medio de la app.
-
--Brindar un entorno y navegabilidad adaptativa en diversos dispositivos.
-
--Garantizar una interfaz accesible e inclusiva que posibilite navegar a clientes extranjeros y con capacidades diferentes.
-
--Asegurar las gestiones de pago de manera rápida y segura, protegiendo sus datos personales.
+  
+- Ofrecer a los clientes recursos educativos online con disponibilidad 24/7
+  
+- Fortalecer la motivación de los clientes creando una comunidad activa que fomente la interacción por medio de la app.
+  
+- Brindar un entorno y navegabilidad adaptativa en diversos dispositivos.
+  
+- Garantizar una interfaz accesible e inclusiva que posibilite navegar a clientes extranjeros y con capacidades diferentes.
+  
+- Asegurar las gestiones de pago de manera rápida y segura, protegiendo sus datos personales.
+  
 
 ## Integrantes
 
