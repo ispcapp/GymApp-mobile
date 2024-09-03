@@ -16,7 +16,7 @@
 
 ## Objetivos Específicos :dart:
 
--Facilitar la gestión personal de clientes en una interfaz amigable, dinámica y atractiva.
+- Facilitar la gestión personal de clientes en una interfaz amigable, dinámica y atractiva.
 
 -Ofrecer a los clientes recursos educativos online con disponibilidad 24/7
 
