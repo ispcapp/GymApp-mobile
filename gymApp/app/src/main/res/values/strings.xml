@@ -1,0 +1,66 @@
+<resources>
+    <!-- CREDENCIALES APP -->
+    <string name="app_name">GymApp</string>
+    <string name="developer">Max Fernandez</string>
+    <string name="desarrollo">Desarrollado por:</string>
+    <string name="version">Version 1.0.0</string>
+
+    <!-- GET STARTED -->
+    <string name="lbl_welcome_get_started">Bienvenid@</string>
+    <string name="lbl_btn_login">Ingresar</string>
+    <string name="lbl_btn_register">Registrarse</string>
+
+    <!-- SIGN UP -->
+    <string name="lbl_welcome_signup">¡Hola! Registrate para comenzar</string>
+    <string name="txt_user">Nombre de usuario</string>
+    <string name="txt_email">Correo electronico</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="txt_password2">Confirmar contraseña</string>
+    <string name="lbl_signup_with">O registrarse con</string>
+    <string name="lbl_register">Ya tienes cuenta?</string>
+    <string name="lbl_register2">Ingresa aqui</string>
+
+    <!-- LOGIN -->
+    <string name="lbl_welcome_login">¡Bienvenid@! Me alegra verte de nuevo</string>
+    <string name="lbl_forgot_password">Olvidaste tu contraseña?</string>
+    <string name="lbl_login_with">O Ingresar con</string>
+    <string name="lbl_login">No tienes cuenta?</string>
+    <string name="lbl_login2">Registrate aqui</string>
+
+    <!-- Pantallas de Categorías -->
+    <string name="categories_title">Elige tu clase</string>
+    <string name="full_body_workout">Ejercicio de Cuerpo Completo</string>
+    <string name="arms_workout">Ejercicio de Brazos</string>
+    <string name="legs_workout">Ejercicio de Piernas</string>
+    <string name="abs_workout">Ejercicio de Abdominales</string>
+    <string name="glutes_workout">Ejercicio de Glúteos</string>
+
+    <!-- Pantallas de Perfil -->
+    <string name="profile_title">Mi Perfil</string>
+    <string name="edit_profile">Editar Perfil</string>
+    <string name="logout">Cerrar Sesión</string>
+
+    <!-- Pantallas de Calendario -->
+    <string name="calendar_title">Reservar Clase</string>
+    <string name="confirm_reservation">Confirmar Reserva</string>
+
+    <!-- Pantallas de Contacto -->
+    <string name="contact_title">Contacto</string>
+    <string name="contact_phone">Teléfono</string>
+    <string name="contact_email">Correo Electrónico</string>
+
+    <!-- SUCCESS -->
+    <string name="lbl_success_signup">¡Exito!</string>
+    <string name="lbl_success_signup2">Felicitaciones, su cuenta fue creada correctamente</string>
+    <string name="lbl_success_login">¡Ingreso exitoso!</string>
+    <string name="lbl_success_redirect">Redirigiendo...</string>
+    <string name="lbl_success_reset_password">Restablecimiento exitoso</string>
+    <string name="lbl_success_reservation">¡Reserva exitosa!</string>
+    <string name="lbl_success_reservation2">Puedes ver todas tus reservas desde Calendario</string>
+    <string name="lbl_success_logout">¡Se ha cerrado la sesión!</string>
+    <string name="lbl_success_logout2">Hasta la proxima</string>
+    <string name="lbl_success_delete">¡Cuenta eliminada!</string>
+    <string name="lbl_success_delete2">Se han borrado todos los datos</string>
+
+
+</resources>

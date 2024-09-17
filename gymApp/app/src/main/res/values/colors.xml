@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#CFA31E</color>
+    <color name="colorPrimaryDark">#846B21</color>
+
+    <color name="primaryColor">#111111</color> <!-- Fondo oscuro -->
+    <color name="primaryDarkColor">#000000</color> <!-- Fondo aún más oscuro -->
+    <color name="accentColor">#FFD700</color> <!-- Dorado (acento) -->
+    <color name="textColorPrimary">#FFFFFF</color> <!-- Texto blanco -->
+    <color name="successColor">#00C851</color> <!-- Color de confirmación (verde) -->
+
+</resources>
