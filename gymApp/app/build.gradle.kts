@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.ispcapp.myapplication"
+    namespace = "com.ispcapp.gymapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.ispcapp.myapplication"
+        applicationId = "com.ispcapp.gymapp"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

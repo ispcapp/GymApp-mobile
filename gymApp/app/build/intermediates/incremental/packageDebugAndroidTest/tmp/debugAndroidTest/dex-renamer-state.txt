@@ -1,0 +1,10 @@
+#Tue Sep 17 04:01:24 ART 2024
+base.0=C\:\\Users\\Dios\\Desktop\\ISPC-REC-PROG_APP_MOV_2024\\proyectos\\GymApp-mobile\\gymApp\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=C\:\\Users\\Dios\\Desktop\\ISPC-REC-PROG_APP_MOV_2024\\proyectos\\GymApp-mobile\\gymApp\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=C\:\\Users\\Dios\\Desktop\\ISPC-REC-PROG_APP_MOV_2024\\proyectos\\GymApp-mobile\\gymApp\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\1\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=1/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
