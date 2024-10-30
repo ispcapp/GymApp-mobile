@@ -1,6 +1,6 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .views import ClaseViewSet, ReservaViewSet, UsuarioViewSet,  ActividadViewSet, ActividadCategoriaViewSet, CategoriaViewSet
+from .views import register_user, ClaseViewSet, ReservaViewSet, UsuarioViewSet,  ActividadViewSet, ActividadCategoriaViewSet, CategoriaViewSet
 
 router = DefaultRouter()
 router.register(r'clases', ClaseViewSet)
@@ -12,4 +12,5 @@ router.register(r'categoria', CategoriaViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
+    path('register/', register_user, name='register_user'),
 ]
