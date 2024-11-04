@@ -50,6 +50,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'gym_app.middleware.jwt_authentication.jwt_authentication_middleware',
 ]
 
 ROOT_URLCONF = 'gym_app.urls'
@@ -87,6 +88,14 @@ REST_FRAMEWORK = {
 
 
 from datetime import timedelta
+# settings.py
+import os
+from jose import jwt  # Para decodificar el token de Auth0
+
+AUTH0_DOMAIN = "dev-lmdu7xhddcajg620"
+API_IDENTIFIER = "WkLxlFP7moia5ZK0wzFABdotIxyoBdbj"
+ALGORITHMS = ["RS256"]
+
 
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),

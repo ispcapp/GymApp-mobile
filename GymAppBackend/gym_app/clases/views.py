@@ -15,7 +15,6 @@ from rest_framework.permissions import IsAuthenticated
 
 class ClaseViewSet(viewsets.ModelViewSet):
    # permission_classes = [AllowAny] 
-
     queryset = Clase.objects.all()
     serializer_class = ClaseSerializer
     permission_classes = [IsAuthenticated]
@@ -24,7 +23,7 @@ class ReservaViewSet(viewsets.ModelViewSet):
    # permission_classes = [AllowAny] 
     queryset = Reserva.objects.all()
     serializer_class = ReservaSerializer
-    #permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
 
 class UsuarioViewSet(viewsets.ModelViewSet):
     #permission_classes = [AllowAny] 
@@ -36,7 +35,7 @@ class ActividadViewSet(viewsets.ModelViewSet):
    # permission_classes = [AllowAny] 
     queryset = Actividad.objects.all()
     serializer_class = ActividadSerializer
-   # permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
 
 class ActividadCategoriaViewSet(viewsets.ModelViewSet):
    # permission_classes = [AllowAny] 
@@ -44,10 +43,10 @@ class ActividadCategoriaViewSet(viewsets.ModelViewSet):
     serializer_class = ActividadCategoriaSerializer
 
 class CategoriaViewSet(viewsets.ModelViewSet):
-   # permission_classes = [AllowAny] 
+    #permission_classes = [AllowAny] 
     queryset = Categoria.objects.all()
     serializer_class = CategoriaSerializer
-   # permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
 
 
 @api_view(['POST'])
