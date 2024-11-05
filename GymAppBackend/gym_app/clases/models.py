@@ -20,7 +20,7 @@ class Usuario(AbstractBaseUser):
     nombre = models.CharField(max_length=25)
     apellido = models.CharField(max_length=16)
     email = models.EmailField(unique=True)
-    telefono = models.CharField(max_length=20, blank=True, null=True)
+    nroDoc = models.CharField(max_length=8, blank=True, null=True)
     create_time = models.DateTimeField(auto_now_add=True)
 
     is_active = models.BooleanField(default=True)
