@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'rest_framework_simplejwt',
     'clases',
     'rest_framework_simplejwt.token_blacklist'
 ]
@@ -50,7 +51,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'gym_app.middleware.jwt_authentication.jwt_authentication_middleware',
+    #'gym_app.middleware.jwt_authentication.jwt_authentication_middleware',
 ]
 
 ROOT_URLCONF = 'gym_app.urls'
@@ -74,15 +75,21 @@ TEMPLATES = [
 WSGI_APPLICATION = 'gym_app.wsgi.application'
 
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    ),
+   # 'DEFAULT_AUTHENTICATION_CLASSES': (
+   #     'rest_framework_simplejwt.authentication.JWTAuthentication',
+   # ),
    # 'DEFAULT_PERMISSION_CLASSES': (
    #     'rest_framework.permissions.IsAuthenticated',
    # ),
+
+    'DEFAULT_AUTHENTICATION_CLASSES':[
+        #'rest_framework.authentication.TokenAuthentication',
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ],
     'DEFAULT_PERMISSION_CLASSES': (
         'rest_framework.permissions.AllowAny',
     ),
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.openapi.AutoSchema',
 }
 
 
@@ -90,11 +97,11 @@ REST_FRAMEWORK = {
 from datetime import timedelta
 # settings.py
 import os
-from jose import jwt  # Para decodificar el token de Auth0
+#from jose import jwt  # Para decodificar el token de Auth0
 
-AUTH0_DOMAIN = "dev-lmdu7xhddcajg620"
-API_IDENTIFIER = "WkLxlFP7moia5ZK0wzFABdotIxyoBdbj"
-ALGORITHMS = ["RS256"]
+#AUTH0_DOMAIN = "dev-lmdu7xhddcajg620"
+#API_IDENTIFIER = "WkLxlFP7moia5ZK0wzFABdotIxyoBdbj"
+#ALGORITHMS = ["RS256"]
 
 
 SIMPLE_JWT = {
@@ -159,3 +166,8 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#CORS_ALLOWED_ORIGINS = ["http://192.168.0.20:4200","http://localhost:4200"]
+#CORS_ORIGIN_WHITE_LIST= ["http://localhost:4200"]
+
+CORS_ORIGIN_ALLOW_ALL = True
