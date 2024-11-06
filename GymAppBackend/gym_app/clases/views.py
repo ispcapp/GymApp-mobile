@@ -12,7 +12,9 @@ from rest_framework.decorators import api_view, authentication_classes,permissio
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework_simplejwt.tokens import RefreshToken
+from rest_framework.authentication import TokenAuthentication
 from django.contrib.auth.hashers import make_password
+
 
 
 
@@ -66,16 +68,47 @@ def register(request):
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
+@api_view(['POST'])
+def login(request):
+    user = get_object_or_404(User, email = request.data['email'])
+    if not user.check_password(request.data["password"]):
+        return Response({"error": "Contraseña incorrecta"}, status.HTTP_400_BAD_REQUEST)
+    
+    token, created = Token.objects.get_or_create(user=user)
+    serializer = UserSerializer(instance = user)
 
-""" @api_view(['POST'])
-def register_user(request):
-    data = request.data
+    return Response({"token": token.key, "user": serializer.data}, status=status.HTTP_200_OK)
+    
+
+@api_view(['POST'])
+@authentication_classes([JWTAuthentication, TokenAuthentication])
+@permission_classes([IsAuthenticated])
+def logout(request):
     try:
-        user = User.objects.create(
-            username=data['username'],
-            password=make_password(data['password']),
-            email=data.get('email', ''),
-        )
-        return Response({"message": "Usuario registrado con éxito"}, status=status.HTTP_201_CREATED)
+        if request.user.auth_token:
+            request.user.auth_token.delete()
+        
+        if 'HTTP_AUTHORIZATION' in request.headers:
+            refresh_token = request.headers['HTTP_AUTHORIZATION'].split('')[1]
+            token = RefreshToken(refresh_token)
+            token.blacklist()
+
+        return Response ({"message": "Sesión cerrada"}, status=status.HTTP_200_OK)
     except Exception as e:
-        return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST) """
+        return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST)
+        
+
+
+
+# @api_view(['POST'])
+# def register_user(request):
+#     data = request.data
+#     try:
+#         user = User.objects.create(
+#             username=data['username'],
+#             password=make_password(data['password']),
+#             email=data.get('email', ''),
+#         )
+#         return Response({"message": "Usuario registrado con éxito"}, status=status.HTTP_201_CREATED)
+#     except Exception as e:
+#         return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST)
