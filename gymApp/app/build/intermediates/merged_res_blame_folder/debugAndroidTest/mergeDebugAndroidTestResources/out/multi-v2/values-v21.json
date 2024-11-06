@@ -4,7 +4,7 @@
             "outputFile": "com.ispcapp.gymapp.test.app-mergeDebugAndroidTestResources-2:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dios\\.gradle\\caches\\transforms-4\\6830a08a238b54d0dac17148d16fdb04\\transformed\\core-1.6.1\\res\\values-v21\\values.xml",
+                    "source": "C:\\Users\\Dios\\.gradle\\caches\\transforms-4\\faa63957768d3a38b212e11941620313\\transformed\\core-1.6.1\\res\\values-v21\\values.xml",
                     "from": {
                         "startLines": "4,13",
                         "startColumns": "0,0",

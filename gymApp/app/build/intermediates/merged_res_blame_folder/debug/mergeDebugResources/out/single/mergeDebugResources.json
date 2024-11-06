@@ -1,370 +1,466 @@
 [
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_perfil_female1.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\perfil_female1.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_activity_home.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_event_4.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\event_4.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_category_gluteos_female.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/category_gluteos_female.png"
     },
     {
-        "merged": "com.ispcapp.gymapp-debug-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.ispcapp.gymapp-main-33:/drawable/ic_launcher_background.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_category_arms_female.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/category_arms_female.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.ispcapp.gymapp-pngs-39:/drawable-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_perfil_female.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\perfil_female.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_category_abs_male.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/category_abs_male.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\layout\\activity_splash.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_logo.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\logo.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_musculacion_male.jpg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/musculacion_male.jpg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_musculacion_male.jpg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\musculacion_male.jpg"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_icon_notifications.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/icon_notifications.xml"
     },
     {
-        "merged": "com.ispcapp.gymapp-debug-31:/layout_activity_splash.xml.flat",
-        "source": "com.ispcapp.gymapp-main-33:/layout/activity_splash.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_event_5.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/event_5.jpeg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_gap_male.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\gap_male.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/navigation_nav.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/navigation/nav.xml"
     },
     {
-        "merged": "com.ispcapp.gymapp-debug-31:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.ispcapp.gymapp-pngs-27:/drawable-xxhdpi/ic_launcher_foreground.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_icon_events.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/icon_events.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_apple.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\apple.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable-anydpi-v24_icon_edit.xml.flat",
+        "source": "com.ispcapp.gymapp-pngs-39:/drawable-anydpi-v24/icon_edit.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_logo.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/logo.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_arrow_back_24.xml.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\arrow_back_24.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.ispcapp.gymapp-debug-31:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.ispcapp.gymapp-pngs-27:/drawable-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_category_legs_male.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/category_legs_male.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_event_3.jpg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\event_3.jpg"
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_category_gluteos_female.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\category_gluteos_female.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\layout\\activity_login.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.ispcapp.gymapp-pngs-39:/drawable-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_pilates_female.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\pilates_female.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_arrow_back_24.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/arrow_back_24.xml"
     },
     {
-        "merged": "com.ispcapp.gymapp-debug-31:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.ispcapp.gymapp-pngs-27:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_event_2.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/event_2.jpeg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\layout\\activity_main.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_activity_splash.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_localizada_male.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\localizada_male.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_apple.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/apple.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\layout\\activity_home.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_gap_male.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/gap_male.jpeg"
     },
     {
-        "merged": "com.ispcapp.gymapp-debug-31:/layout_activity_login.xml.flat",
-        "source": "com.ispcapp.gymapp-main-33:/layout/activity_login.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/xml_backup_rules.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_spinning_male.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\spinning_male.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.ispcapp.gymapp-debug-31:/layout_activity_sign_up.xml.flat",
-        "source": "com.ispcapp.gymapp-main-33:/layout/activity_sign_up.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_category_abs_female.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/category_abs_female.png"
     },
     {
-        "merged": "com.ispcapp.gymapp-debug-31:/drawable-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.ispcapp.gymapp-pngs-27:/drawable-xhdpi/ic_launcher_foreground.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_category_fullbody_male.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/category_fullbody_male.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_event_1.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\event_1.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_full_category.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/full_category.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_activity_sign_up.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_activity_main.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_zumba_female.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\zumba_female.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_fragment_calendar_reserve.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/fragment_calendar_reserve.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-pngs-27:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_category_legs_female.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\category_legs_female.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.ispcapp.gymapp-debug-31:/drawable-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.ispcapp.gymapp-pngs-27:/drawable-mdpi/ic_launcher_foreground.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_icon_calendar.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/icon_calendar.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_facebook.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\facebook.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.ispcapp.gymapp-pngs-39:/drawable-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_spinning_male.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/spinning_male.jpeg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-pngs-27:\\drawable-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_fragment_settings.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/fragment_settings.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_event_2.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\event_2.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_icon_sound.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/icon_sound.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_perfil_male.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\perfil_male.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.ispcapp.gymapp-pngs-39:/drawable-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable-mdpi_icon_edit.png.flat",
+        "source": "com.ispcapp.gymapp-pngs-39:/drawable-mdpi/icon_edit.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_splash.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\splash.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_activity_categories.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/activity_categories.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_category_fullbody_male.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\category_fullbody_male.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_event_6.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/event_6.jpeg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_background_gradiant.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\background_gradiant.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_gap_female.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/gap_female.jpeg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_musculacion_female.jpg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\musculacion_female.jpg"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_icon_bacground.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/icon_bacground.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-pngs-27:\\drawable-mdpi\\ic_launcher_foreground.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_event_3.jpg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/event_3.jpg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable-xxxhdpi_icon_edit.png.flat",
+        "source": "com.ispcapp.gymapp-pngs-39:/drawable-xxxhdpi/icon_edit.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_perfil_male.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/perfil_male.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_spinning_female.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\spinning_female.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_fragment_calendar_view.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/fragment_calendar_view.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-pngs-27:\\drawable-xhdpi\\ic_launcher_foreground.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_icon_delete_count.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/icon_delete_count.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_icon_home.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/icon_home.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-pngs-27:\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_calendar_view.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/calendar_view.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_zumba_male.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\zumba_male.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_background_gradiant.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/background_gradiant.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable-ldpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-pngs-27:\\drawable-ldpi\\ic_launcher_foreground.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_spinning_female.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/spinning_female.jpeg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_category_gluteos_male.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\category_gluteos_male.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable-ldpi_icon_edit.png.flat",
+        "source": "com.ispcapp.gymapp-pngs-39:/drawable-ldpi/icon_edit.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\xml\\backup_rules.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_edit_text_background.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/edit_text_background.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_crossfit_female.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\crossfit_female.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_background_profile.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/background_profile.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_pilates_female.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/pilates_female.jpeg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_localizada_female.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\localizada_female.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.ispcapp.gymapp-debug-31:/drawable-ldpi_ic_launcher_foreground.png.flat",
-        "source": "com.ispcapp.gymapp-pngs-27:/drawable-ldpi/ic_launcher_foreground.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_icon_contact.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/icon_contact.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_category_abs_male.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\category_abs_male.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_fragment_forgot_password.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/fragment_forgot_password.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_fullabdomen_female.jpg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\fullabdomen_female.jpg"
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_fragment_home.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_pilates_male.jpg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\pilates_male.jpg"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.ispcapp.gymapp-pngs-39:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\xml\\data_extraction_rules.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_category_legs_male.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\category_legs_male.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_icon_bacground_rounded.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/icon_bacground_rounded.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_event_5.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\event_5.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_localizada_female.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/localizada_female.jpeg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_category_fullbody_female.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\category_fullbody_female.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_perfil_female.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/perfil_female.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_category_arms_female.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\category_arms_female.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_zumba_female.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/zumba_female.jpeg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_fullabdomen_male.jpg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\fullabdomen_male.jpg"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_fullabdomen_female.jpg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/fullabdomen_female.jpg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_fullabdomen_male.jpg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/fullabdomen_male.jpg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable-xhdpi_icon_edit.png.flat",
+        "source": "com.ispcapp.gymapp-pngs-39:/drawable-xhdpi/icon_edit.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_login.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\login.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_localizada_male.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/localizada_male.jpeg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_gap_female.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\gap_female.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_contact.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/contact.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_event_6.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\event_6.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-hdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_category_arms_male.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/category_arms_male.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_crossfit_male.jpeg.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\crossfit_male.jpeg"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_category_gluteos_male.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/category_gluteos_male.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_goggle.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\goggle.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_fragment_contact.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/fragment_contact.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\layout\\activity_sign_up.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_icon_time.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/icon_time.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_login2.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\login2.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_fragment_reset_password.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/fragment_reset_password.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-pngs-27:\\drawable-hdpi\\ic_launcher_foreground.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_icon_settings.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/icon_settings.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_icon_bacground.xml.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\icon_bacground.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_crossfit_female.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/crossfit_female.jpeg"
     },
     {
-        "merged": "com.ispcapp.gymapp-debug-31:/drawable-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.ispcapp.gymapp-pngs-27:/drawable-hdpi/ic_launcher_foreground.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_login2.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/login2.png"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_event_4.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/event_4.jpeg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_perfil_male1.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\perfil_male1.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_event_1.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/event_1.jpeg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_login.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/login.png"
     },
     {
-        "merged": "com.ispcapp.gymapp-debug-31:/layout_activity_home.xml.flat",
-        "source": "com.ispcapp.gymapp-main-33:/layout/activity_home.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/xml_data_extraction_rules.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_category_abs_female.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\category_abs_female.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_icon_dark_mode.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/icon_dark_mode.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_category_arms_male.png.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\category_arms_male.png"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_icon_password.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/icon_password.xml"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_button_background.xml.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\button_background.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_crossfit_male.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/crossfit_male.jpeg"
     },
     {
-        "merged": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-debug-31:\\drawable_edit_text_background.xml.flat",
-        "source": "C:\\Users\\Dios\\.gradle\\daemon\\8.7\\com.ispcapp.gymapp-main-33:\\drawable\\edit_text_background.xml"
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_fragment_edit_profile.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/fragment_edit_profile.xml"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_zumba_male.jpeg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/zumba_male.jpeg"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_icon_profile.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/icon_profile.xml"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_category_fullbody_female.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/category_fullbody_female.png"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_goggle.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/goggle.png"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_musculacion_female.jpg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/musculacion_female.jpg"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_category_legs_female.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/category_legs_female.png"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_facebook.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/facebook.png"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable-xxhdpi_icon_edit.png.flat",
+        "source": "com.ispcapp.gymapp-pngs-39:/drawable-xxhdpi/icon_edit.png"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_fragment_events.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/fragment_events.xml"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_fragment_profile.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable-hdpi_icon_edit.png.flat",
+        "source": "com.ispcapp.gymapp-pngs-39:/drawable-hdpi/icon_edit.png"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.ispcapp.gymapp-pngs-39:/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_icon_logout.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/icon_logout.xml"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_pilates_male.jpg.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/pilates_male.jpg"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/layout_activity_login.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_splash.png.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/splash.png"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/menu_bottom_navbar.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/menu/bottom_navbar.xml"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable_button_background.xml.flat",
+        "source": "com.ispcapp.gymapp-main-45:/drawable/button_background.xml"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ispcapp.gymapp-main-45:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ispcapp.gymapp-debug-43:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.ispcapp.gymapp-pngs-39:/drawable-xhdpi/ic_launcher_foreground.png"
     }
 ]
