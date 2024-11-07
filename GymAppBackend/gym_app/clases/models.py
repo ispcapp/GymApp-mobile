@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, User
+from django.contrib.auth.models import User
 
 #class UsuarioManager(BaseUserManager):
 #    def create_user(self, email, nombre, apellido, password=None, **extra_fields):
@@ -37,6 +37,7 @@ from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, User
 
 
 class Cliente(models.Model):
+    #username = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True) arreglando
     email = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
     nombre = models.CharField(max_length=100)
     apellido = models.CharField(max_length=100)

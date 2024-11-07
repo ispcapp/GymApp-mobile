@@ -28,7 +28,7 @@ urlpatterns = [
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     #path('api/token/verify/', TokenVerifyView.as_view(), name='token_verify'),
     path('api/login', obtain_auth_token, name='api_token_auth'),
+    path('api/register/', views.register, name="register"),
     #re_path('login/', views.login),
-    #re_path('register/', views.register),
     #re_path('profile/', views.profile),
 ]

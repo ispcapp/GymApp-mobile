@@ -55,6 +55,7 @@ class CategoriaViewSet(viewsets.ModelViewSet):
 
 @api_view(['POST'])
 def register(request):
+    print("Request Data:", request.data)
     serializer = UserSerializer(data=request.data)
     if serializer.is_valid():
         serializer.save()
