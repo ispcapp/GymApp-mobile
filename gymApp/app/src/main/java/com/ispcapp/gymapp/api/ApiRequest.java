@@ -26,10 +26,58 @@ public class ApiRequest {
         requestQueue = Volley.newRequestQueue(context);
     }
 
-   /* public void login (String username, String password, final ApiCallback callback){
-        String url = BASE_URL + "login/"
-    }*/
+    public void login (String username, String password, final ApiCallback callback){
+        String url = BASE_URL + "login/";
 
+        JSONObject jsonBody = new JSONObject();
+        try{
+            jsonBody.put("email", username);
+            jsonBody.put("password", password);
+        }catch ( JSONException e ){
+            Log.e("ApiRequest", "Error al crear JSON: ", e);
+        }
+
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, url, jsonBody,
+                callback::onSuccess,
+                error -> {
+                    String errorMessage = "Credenciales incorrectas"; // Mensaje genérico
+
+                    if (error.networkResponse != null) {
+                        Log.e("VolleyError", "Código de respuesta: " + error.networkResponse.statusCode);
+                        switch (error.networkResponse.statusCode) {
+                            case 400:
+                                errorMessage = "Datos ingresados incorrectos.";
+                                break;
+                            case 404:
+                                errorMessage = "El usuario no existe. Regístrese.";
+                                break;
+                            case 500:
+                                errorMessage = "Error del servidor. Intente más tarde.";
+                                break;
+                            default:
+                                errorMessage = "Error desconocido.";
+                                break;
+                        }
+                    } else {
+                        errorMessage = "Error de conexión. Verifique la red.";
+                    }
+
+                    Log.e("VolleyError", errorMessage);
+                    callback.onError(new VolleyError(errorMessage));
+                });
+
+        int socketTimeout = 30000; // 30 segundos
+        DefaultRetryPolicy policy = new DefaultRetryPolicy(socketTimeout, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
+        jsonObjectRequest.setRetryPolicy(policy);
+
+        requestQueue.add(jsonObjectRequest);
+    }
+
+
+    public interface ApiCallback {
+        void onSuccess(JSONObject response);
+        void onError(VolleyError error);
+    }
 }
 
 
