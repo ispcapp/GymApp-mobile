@@ -170,7 +170,7 @@
 
     <FrameLayout
         android:id="@+id/fcv_settings"
-        android:name="com.lanusroots.gymapp_test.ChangePasswordFragment"
+        android:name="com.ispcapp.gymapp.ChangePasswordFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
