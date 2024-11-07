@@ -1,4 +1,4 @@
-package com.ispcapp.gymapp;
+package com.ispcapp.myapplication;
 
 import android.content.Context;
 

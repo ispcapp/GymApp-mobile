@@ -7,8 +7,8 @@
 
     <!-- GET STARTED -->
     <string name="lbl_welcome_get_started">Bienvenid@</string>
-    <string name="lbl_btn_login">INGRESAR</string>
-    <string name="lbl_btn_register">REGISTRARSE</string>
+    <string name="lbl_btn_login">Ingresar</string>
+    <string name="lbl_btn_register">Registrarse</string>
 
     <!-- SIGN UP -->
     <string name="lbl_welcome_signup">¡Hola! Registrate para comenzar</string>
@@ -26,98 +26,6 @@
     <string name="lbl_login_with">O Ingresar con</string>
     <string name="lbl_login">No tienes cuenta?</string>
     <string name="lbl_login2">Registrate aqui</string>
-
-    <!-- FORGOT PASSWORD -->
-    <string name="lbl_welcome_forgot_pass">¿Has olvidado tu contraseña?</string>
-    <string name="lbl_forgot_pass">¡No te preocupes!</string>
-    <string name="lbl_forgot_pass1">Ingresa tu email de usuario registradi para restablecerla</string>
-    <string name="lbl_forgot_pass2">Restablecer contraseña !!</string>
-    <string name="lbl_btn_enviar">ENVIAR</string>
-    <string name="lbl_btn_restablecer">RESTABLECER</string>
-
-    <!-- HOME -->
-    <string name="lbl_welcome_home">Hola, Augusto</string>
-    <string name="lbl_welcome_home2">¡Es hora de desafiar tus límites!</string>
-
-    <!-- EVENTS -->
-    <string name="lbl_title_events">Eventos</string>
-    <string name="lbl_subtitle_events">Competencias</string>
-    <string name="lbl_subtitle_events2">Seminarios</string>
-    <string name="txt_title_events1">Copa Metal Gym</string>
-    <string name="txt_info_events1">Body fitnes - womens\nand mens</string>
-    <string name="txt_date_events1">Nov\n2024</string>
-    <string name="txt_title_events2">Maraton 4K</string>
-    <string name="txt_info_events2">Celebramos el 8vo maraton\npor la vida</string>
-    <string name="txt_date_events2">Ene\n2025</string>
-    <string name="txt_title_events3">Workout Challenge</string>
-    <string name="txt_info_events3">Crossfit and Funcional</string>
-    <string name="txt_date_events3">Feb\n2025</string>
-    <string name="txt_title_events4">Powerlifting</string>
-    <string name="txt_info_events4">Fuerza Extrema</string>
-    <string name="txt_date_events4">Mar\n2025</string>
-    <string name="txt_title_events5">Biomecanica y Deporte</string>
-    <string name="txt_info_events5">Linea Premium</string>
-    <string name="txt_date_events5">Oct\n2024</string>
-    <string name="txt_title_events6">Nutricion y Fitness</string>
-    <string name="txt_info_events6">Teorico - Practico</string>
-    <string name="txt_date_events6">Dic\n2024</string>
-
-    <!-- CONTACT -->
-    <string name="lbl_title_contact">Contacto</string>
-    <string name="lbl_subtitle_contact">¡Comunicate con nosotros!</string>
-
-    <!-- CALENDAR -->
-    <string name="lbl_title_calendar">Calendario</string>
-    <string name="lbl_subtitle_calendar">¡Estas son tus reservas!</string>
-
-    <!-- CALENDAR_RESERVE -->
-    <string name="lbl_title_reserve">CROSSFIT</string>
-    <string name="lbl_subtitle_reserve">Reservas</string>
-    <string name="lbl_time_reserve">Hora</string>
-    <string name="lbl_notifications_reserve">Notificación</string>
-    <string name="lbl_btn_reserve">CONFIRMAR RESERVA</string>
-
-    <!-- PROFILE -->
-    <string name="lbl_title_profile">Mi Perfil</string>
-    <string name="lbl_subtitle_profile">Editar Perfil</string>
-    <string name="lbl_user_profile">Augusto, Suarez</string>
-    <string name="lbl_email_profile">augusto@gmail.com</string>
-    <string name="txt_name_profile">Nombre</string>
-    <string name="txt_lastname_profile">Apellido</string>
-    <string name="txt_email_profile">Email</string>
-    <string name="txt_dni_profile">DNI</string>
-    <string name="lbl_btn_actualizar">ACTUALIZAR</string>
-
-    <!-- EDIT_PROFILE -->
-    <string name="lbl_title_eprofile">Mi Perfil</string>
-    <string name="lbl_edit_eprofile">Editar Perfil</string>
-    <string name="lbl_settings_eprofile">Ajustes</string>
-    <string name="lbl_contac_eprofile">Contacto</string>
-    <string name="lbl_logout_eprofile">Cerrar Sesion</string>
-
-    <!-- SETTINGS -->
-    <string name="lbl_title_settings">Ajustes</string>
-    <string name="lbl_dark_mode_settings">Dark Mode</string>
-    <string name="lbl_sound_settings">Sonido</string>
-    <string name="lbl_password_settings">Contraseñas</string>
-    <string name="lbl_delete_count_settings">Borrar cuenta</string>
-
-    <!-- CHANGE PASSWORD -->
-    <string name="lbl_title_change_password">Contraseñas</string>
-    <string name="lbl_btn_change_password">ACTUALIZAR</string>
-    <string name="txt_change_password">Contraseña actual</string>
-    <string name="txt_change_password2">Nueva contraseña</string>
-    <string name="txt_change_password3">Confirmar contraseña</string>
-
-    <!-- DELETE ACCOUNT -->
-    <string name="lbl_title_delete_account">Borrar Cuenta</string>
-    <string name="lbl_subtitle_delete_account">¿Deseas eliminar tu cuenta?</string>
-    <string name="lbl_subtitle_delete_account2">¡Si eliminas tu cuenta, se borraran todos tus datos!</string>
-    <string name="lbl_subtitle_delete_account3">Para eliminar definitivamente tu cuenta, debes ingresar tu contraseña</string>
-    <string name="lbl_btn_delete_account">ELIMINAR</string>
-    <string name="txt_delete_account">Contraseña</string>
-    <string name="txt_delete_account2">Confirmar contraseña</string>
-    <string name="txt_delete_account3">Eliminar cuenta</string>
 
     <!-- Pantallas de Categorías -->
     <string name="categories_title">Elige tu clase</string>
@@ -153,8 +61,6 @@
     <string name="lbl_success_logout2">Hasta la proxima</string>
     <string name="lbl_success_delete">¡Cuenta eliminada!</string>
     <string name="lbl_success_delete2">Se han borrado todos los datos</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
