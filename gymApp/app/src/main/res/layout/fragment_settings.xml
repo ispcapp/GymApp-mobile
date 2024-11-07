@@ -128,7 +128,7 @@
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <TextView
-        android:id="@+id/tv_contact_profile2"
+        android:id="@+id/tv_password_settings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
@@ -154,7 +154,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView21" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/tv_delete_account_settings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
@@ -166,7 +166,13 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline16"
         app:layout_constraintHorizontal_bias="0.347"
         app:layout_constraintStart_toEndOf="@+id/imageView22"
-        app:layout_constraintTop_toBottomOf="@+id/tv_contact_profile2" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_password_settings" />
+
+    <FrameLayout
+        android:id="@+id/fcv_settings"
+        android:name="com.lanusroots.gymapp_test.ChangePasswordFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline15"

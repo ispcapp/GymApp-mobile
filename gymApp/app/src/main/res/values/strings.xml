@@ -102,6 +102,23 @@
     <string name="lbl_password_settings">Contraseñas</string>
     <string name="lbl_delete_count_settings">Borrar cuenta</string>
 
+    <!-- CHANGE PASSWORD -->
+    <string name="lbl_title_change_password">Contraseñas</string>
+    <string name="lbl_btn_change_password">ACTUALIZAR</string>
+    <string name="txt_change_password">Contraseña actual</string>
+    <string name="txt_change_password2">Nueva contraseña</string>
+    <string name="txt_change_password3">Confirmar contraseña</string>
+
+    <!-- DELETE ACCOUNT -->
+    <string name="lbl_title_delete_account">Borrar Cuenta</string>
+    <string name="lbl_subtitle_delete_account">¿Deseas eliminar tu cuenta?</string>
+    <string name="lbl_subtitle_delete_account2">¡Si eliminas tu cuenta, se borraran todos tus datos!</string>
+    <string name="lbl_subtitle_delete_account3">Para eliminar definitivamente tu cuenta, debes ingresar tu contraseña</string>
+    <string name="lbl_btn_delete_account">ELIMINAR</string>
+    <string name="txt_delete_account">Contraseña</string>
+    <string name="txt_delete_account2">Confirmar contraseña</string>
+    <string name="txt_delete_account3">Eliminar cuenta</string>
+
     <!-- Pantallas de Categorías -->
     <string name="categories_title">Elige tu clase</string>
     <string name="full_body_workout">Ejercicio de Cuerpo Completo</string>
