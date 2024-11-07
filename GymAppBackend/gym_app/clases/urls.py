@@ -1,16 +1,18 @@
 from django.urls import path, include
+from rest_framework import routers
+from clases import views
 from rest_framework.routers import DefaultRouter
-from .views import register_user, ClaseViewSet, ReservaViewSet, UsuarioViewSet,  ActividadViewSet, ActividadCategoriaViewSet, CategoriaViewSet
+from .views import ClaseViewSet, ReservaViewSet, ClienteViewSet,  ActividadViewSet, ActividadCategoriaViewSet, CategoriaViewSet
 
 router = DefaultRouter()
-router.register(r'clases', ClaseViewSet)
-router.register(r'reservas', ReservaViewSet)
-router.register(r'usuario', UsuarioViewSet)
-router.register(r'actividad', ActividadViewSet)
-router.register(r'actividadcategoria', ActividadCategoriaViewSet)
-router.register(r'categoria', CategoriaViewSet)
+router.register('clases', ClaseViewSet)
+router.register('reservas', ReservaViewSet)
+router.register('cliente', ClienteViewSet)
+router.register('actividad', ActividadViewSet)
+router.register('actividadcategoria', ActividadCategoriaViewSet)
+router.register('categoria', CategoriaViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('register/', register_user, name='register_user'),
+    #path('register/', register_user, name='register_user'),
 ]

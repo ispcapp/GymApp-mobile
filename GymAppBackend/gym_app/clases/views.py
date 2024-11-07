@@ -1,21 +1,25 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 
 # Create your views here.
 from rest_framework import viewsets
-from .models import Clase, Reserva, Usuario, Actividad, ActividadCategoria, Categoria
-from .serializers import ClaseSerializer, ReservaSerializer, UsuarioSerializer,  ActividadSerializer, ActividadCategoriaSerializer, CategoriaSerializer
-from django.contrib.auth.models import User
-from rest_framework import status
 from rest_framework.response import Response
-from rest_framework.decorators import api_view
-from rest_framework.permissions import AllowAny
+from rest_framework.authtoken.models import Token
+from rest_framework import status
+from django.contrib.auth.models import User
+from .models import Clase, Reserva, Cliente, Actividad, ActividadCategoria, Categoria
+from .serializers import ClaseSerializer, ReservaSerializer, ClienteSerializer,  ActividadSerializer, ActividadCategoriaSerializer, CategoriaSerializer, UserSerializer
+from rest_framework.decorators import api_view, authentication_classes,permission_classes
+from rest_framework.permissions import AllowAny, IsAuthenticated
+from rest_framework_simplejwt.authentication import JWTAuthentication
+from rest_framework_simplejwt.tokens import RefreshToken
+from rest_framework.authentication import TokenAuthentication
 from django.contrib.auth.hashers import make_password
-from rest_framework.permissions import IsAuthenticated
+
+
 
 
 class ClaseViewSet(viewsets.ModelViewSet):
    # permission_classes = [AllowAny] 
-
     queryset = Clase.objects.all()
     serializer_class = ClaseSerializer
     permission_classes = [IsAuthenticated]
@@ -24,19 +28,19 @@ class ReservaViewSet(viewsets.ModelViewSet):
    # permission_classes = [AllowAny] 
     queryset = Reserva.objects.all()
     serializer_class = ReservaSerializer
-    #permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
 
-class UsuarioViewSet(viewsets.ModelViewSet):
+class ClienteViewSet(viewsets.ModelViewSet):
     #permission_classes = [AllowAny] 
-    queryset = Usuario.objects.all()
-    serializer_class = UsuarioSerializer
+    queryset = Cliente.objects.all()
+    serializer_class = ClienteSerializer
 
 
 class ActividadViewSet(viewsets.ModelViewSet):
    # permission_classes = [AllowAny] 
     queryset = Actividad.objects.all()
     serializer_class = ActividadSerializer
-   # permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
 
 class ActividadCategoriaViewSet(viewsets.ModelViewSet):
    # permission_classes = [AllowAny] 
@@ -44,21 +48,67 @@ class ActividadCategoriaViewSet(viewsets.ModelViewSet):
     serializer_class = ActividadCategoriaSerializer
 
 class CategoriaViewSet(viewsets.ModelViewSet):
-   # permission_classes = [AllowAny] 
+    #permission_classes = [AllowAny] 
     queryset = Categoria.objects.all()
     serializer_class = CategoriaSerializer
-   # permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
+
+@api_view(['POST'])
+def register(request):
+    serializer = UserSerializer(data=request.data)
+    if serializer.is_valid():
+        serializer.save()
+        user = User.objects.get(email=serializer.data['email'])
+        user.set_password(serializer.data['password'])
+        user.save()
+
+        token = Token.objects.create(user=user)
+        return Response({'token': token.key, "user":serializer.data}, status=status.HTTP_201_CREATED)
+    
+    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
 @api_view(['POST'])
-def register_user(request):
-    data = request.data
+def login(request):
+    user = get_object_or_404(User, email = request.data['email'])
+    if not user.check_password(request.data["password"]):
+        return Response({"error": "Contraseña incorrecta"}, status.HTTP_400_BAD_REQUEST)
+    
+    token, created = Token.objects.get_or_create(user=user)
+    serializer = UserSerializer(instance = user)
+
+    return Response({"token": token.key, "user": serializer.data}, status=status.HTTP_200_OK)
+    
+
+@api_view(['POST'])
+@authentication_classes([JWTAuthentication, TokenAuthentication])
+@permission_classes([IsAuthenticated])
+def logout(request):
     try:
-        user = User.objects.create(
-            username=data['username'],
-            password=make_password(data['password']),
-            email=data.get('email', ''),
-        )
-        return Response({"message": "Usuario registrado con éxito"}, status=status.HTTP_201_CREATED)
+        if request.user.auth_token:
+            request.user.auth_token.delete()
+        
+        if 'HTTP_AUTHORIZATION' in request.headers:
+            refresh_token = request.headers['HTTP_AUTHORIZATION'].split('')[1]
+            token = RefreshToken(refresh_token)
+            token.blacklist()
+
+        return Response ({"message": "Sesión cerrada"}, status=status.HTTP_200_OK)
     except Exception as e:
         return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST)
+        
+
+
+
+# @api_view(['POST'])
+# def register_user(request):
+#     data = request.data
+#     try:
+#         user = User.objects.create(
+#             username=data['username'],
+#             password=make_password(data['password']),
+#             email=data.get('email', ''),
+#         )
+#         return Response({"message": "Usuario registrado con éxito"}, status=status.HTTP_201_CREATED)
+#     except Exception as e:
+#         return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST)
