@@ -39,6 +39,18 @@ public class SettingsFragment extends Fragment {
                         .commit();
             }
         });
+
+        tv_delete_account_settings = componentFragment.findViewById(R.id.tv_delete_account_settings);
+        tv_delete_account_settings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                fragmentManager.beginTransaction()
+                        .replace(R.id.fcv_settings, DeleteAccountFragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+            }
+        });
         return componentFragment;
     }
 }
