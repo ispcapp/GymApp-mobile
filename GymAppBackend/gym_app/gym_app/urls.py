@@ -18,7 +18,6 @@ from django.contrib import admin
 from django.urls import path, include, re_path
 from clases import views
 from rest_framework.documentation import include_docs_urls
-from rest_framework.authtoken.views import obtain_auth_token
 from rest_framework_simplejwt.views import (TokenObtainPairView, TokenRefreshView,)
 
 urlpatterns = [
@@ -27,8 +26,8 @@ urlpatterns = [
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     #path('api/token/verify/', TokenVerifyView.as_view(), name='token_verify'),
-    path('api/login', obtain_auth_token, name='api_token_auth'),
+    path('api/login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    re_path('api/profile/', views.profile),
     path('api/register/', views.register, name="register"),
     #re_path('login/', views.login),
-    #re_path('profile/', views.profile),
 ]

@@ -37,8 +37,8 @@ from django.contrib.auth.models import User
 
 
 class Cliente(models.Model):
-    #username = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True) arreglando
-    email = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
+    username = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True) 
+    email = models.CharField(max_length=100)
     nombre = models.CharField(max_length=100)
     apellido = models.CharField(max_length=100)
     nroDoc = models.CharField(max_length=100)

@@ -59,27 +59,58 @@ def register(request):
     serializer = UserSerializer(data=request.data)
     if serializer.is_valid():
         serializer.save()
-        user = User.objects.get(email=serializer.data['email'])
+        user = User.objects.get(username=serializer.data['email'])
         user.set_password(serializer.data['password'])
         user.save()
 
-        token = Token.objects.create(user=user)
-        return Response({'token': token.key, "user":serializer.data}, status=status.HTTP_201_CREATED)
+        refresh = RefreshToken.for_user(user)
+        access_token = str(refresh.access_token)
+
+        #token = Token.objects.create(user=user)
+        return Response({"token": access_token,  "user":serializer.data}, status=status.HTTP_201_CREATED)
     
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
 @api_view(['POST'])
 def login(request):
-    user = get_object_or_404(User, email = request.data['email'])
+    print("Request Data:", request.data)
+    user = get_object_or_404(User, username = request.data['username'])
     if not user.check_password(request.data["password"]):
         return Response({"error": "Contraseña incorrecta"}, status.HTTP_400_BAD_REQUEST)
     
-    token, created = Token.objects.get_or_create(user=user)
+    # Crear token JWT
+    refresh = RefreshToken.for_user(user)
+    access_token = str(refresh.access_token)
+
+   # token, created = Token.objects.get_or_create(user=user)
     serializer = UserSerializer(instance = user)
 
-    return Response({"token": token.key, "user": serializer.data}, status=status.HTTP_200_OK)
+    return Response({
+        "token": access_token, 
+        "user": serializer.data
+    }, status=status.HTTP_200_OK)
+
+    #return Response({"token": token.key, "user": serializer.data}, status=status.HTTP_200_OK)
     
+
+@api_view(['GET'])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+def profile(request):
+    user = request.user
+    
+   
+    user_data = {
+        'username': user.username,
+        'email': user.email,
+        'first_name': user.first_name,
+        'last_name': user.last_name,
+        
+    }
+    
+    
+    return Response(user_data)
 
 @api_view(['POST'])
 @authentication_classes([JWTAuthentication, TokenAuthentication])
