@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
@@ -19,7 +20,13 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.FragmentManager;
 
+import com.android.volley.VolleyError;
 import com.ispcapp.gymapp.api.ApiRequest;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.Objects;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -157,7 +164,7 @@ private void validarForm() {
         password.setError("La contraseña con errores.");
         return;
     }
-
+    iniciarSesion(mail, pass);
     // para agregar
   /*  HCaptchaConfig hCaptchaConfig = HCaptchaConfig.builder()
             .siteKey(SITE_KEY)
@@ -178,4 +185,101 @@ private void validarForm() {
                 }
             });*/
 }
+
+    private void iniciarSesion(String correo, String passWord) {
+
+        // Llamar a la API para iniciar sesión
+        Log.e("Login", "Intentando iniciar sesión...");
+        apiRequest.login(correo, passWord, new ApiRequest.ApiCallback() {
+            @Override
+            public void onSuccess(JSONObject response) {
+                loginAttempts = 0; // Resetear intentos al iniciar sesión correctamente
+                sharedPreferences.edit().putInt("login_attempts", loginAttempts).remove("block_timestamp").apply(); // Guardar intentos y eliminar bloqueo
+                // Procesar la respuesta y continuar el flujo exitoso
+                Log.e("try onsuccess", response.toString());
+                try {
+                    String accessToken = response.getString("access");
+                    //saveAccessToken(accessToken);
+                    obtenerUsuario(accessToken);
+                    /*JSONObject user = response.getJSONObject("user");
+                    String first_name = user.getString("first_name");
+                    String token = response.getString("token");
+                    int id = user.getInt("id");*/
+                    // Guardar el nombre y el token
+                   // saveUserData(id, first_name, token);
+                  /*  Intent volverInicio = new Intent(LoginActivity.this, MainActivity.class);
+                    startActivity(volverInicio);
+                    Toast.makeText(LoginActivity.this, "Sesión iniciada", Toast.LENGTH_SHORT).show();*/
+                } catch (JSONException e) {
+                    Log.e("Login", "Se produjo un error", e);
+                    Log.e("catch", response.toString());
+                    Toast.makeText(LoginActivity.this, "Se produjo un error.", Toast.LENGTH_SHORT).show();
+                }
+            }
+
+            @Override
+            public void onError(VolleyError error) {
+                Log.e("Login Error", Objects.requireNonNull(error.getMessage()));
+                loginAttempts++; // Incrementar contador al fallar
+                sharedPreferences.edit().putInt("login_attempts", loginAttempts).apply(); // Guardar intentos
+                Toast.makeText(LoginActivity.this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();
+                if (loginAttempts >= MAX_LOGIN_ATTEMPTS) {
+                    sharedPreferences.edit().putLong("block_timestamp", System.currentTimeMillis()).apply();
+                    Toast.makeText(LoginActivity.this, "Demasiados intentos fallidos. Tu cuenta está bloqueada por 1 minuto.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+        Toast.makeText(this, "Procesando...", Toast.LENGTH_SHORT).show();
+    }
+
+    private void obtenerUsuario(String accessToken) {
+        apiRequest.getUserData(accessToken, new ApiRequest.ApiCallback(){
+            @Override
+            public void onSuccess(JSONObject response){
+                try {
+                    // Ahora puedes acceder a los datos del usuario, por ejemplo:
+                    String firstName = response.getString("first_name");
+                    int userId = response.getInt("id");
+                    Toast.makeText(LoginActivity.this, "Sesión iniciada", Toast.LENGTH_SHORT).show();
+                    // Guardar el nombre y los datos del usuario
+                    saveUserData(userId, firstName, accessToken);
+
+                    // Navegar a la siguiente pantalla
+                    Intent volverInicio = new Intent(LoginActivity.this, MainActivity.class);
+                    startActivity(volverInicio);
+
+                } catch (JSONException e) {
+                    Log.e("Login", "Error al obtener los datos del usuario", e);
+                    Toast.makeText(LoginActivity.this, "Se produjo un error al obtener los datos del usuario.", Toast.LENGTH_SHORT).show();
+                }
+            }
+            @Override
+            public void onError(VolleyError error) {
+                Log.e("Login Error", Objects.requireNonNull(error.getMessage()));
+                loginAttempts++; // Incrementar contador al fallar
+                sharedPreferences.edit().putInt("login_attempts", loginAttempts).apply(); // Guardar intentos
+                Toast.makeText(LoginActivity.this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();
+                if (loginAttempts >= MAX_LOGIN_ATTEMPTS) {
+                    sharedPreferences.edit().putLong("block_timestamp", System.currentTimeMillis()).apply();
+                    Toast.makeText(LoginActivity.this, "Demasiados intentos fallidos. Tu cuenta está bloqueada por 1 minuto.", Toast.LENGTH_SHORT).show();
+                }
+            }
+
+
+        });
+    }
+
+
+    private void saveUserData(int id, String firstName, String token) {
+        SharedPreferences sharedPreferences = getSharedPreferences("app_prefs", MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("first_name", firstName); // Guarda el nombre del usuario
+        editor.putString("jwt_token", token);
+        editor.putBoolean("is_logged_in", true);
+        editor.putInt("id", id);
+        editor.apply();
+    }
+
+
+
 }

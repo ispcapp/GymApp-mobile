@@ -1,20 +1,20 @@
 package com.ispcapp.gymapp.models;
 
 public class UserCredentials {
-    private String username;
+    private String useremail;
     private String password;
 
     public UserCredentials(String username, String password) {
-        this.username = username;
+        this.useremail = username;
         this.password = password;
     }
 
-    public String getUsername() {
-        return username;
+    public String getUserEmail() {
+        return useremail;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUserEmail(String username) {
+        this.useremail = username;
     }
 
     public String getPassword() {

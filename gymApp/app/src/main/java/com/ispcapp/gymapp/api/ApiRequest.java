@@ -6,6 +6,7 @@ import android.util.Log;
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
+import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
@@ -16,14 +17,18 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public class ApiRequest {
 
     private final RequestQueue requestQueue;
-    private static final String BASE_URL = "http://127.0.0.1:8000/";
+    private final Context context;
+    private static final String BASE_URL = "http://192.168.0.14:8000/api/";
 
     public ApiRequest(Context context) {
-        requestQueue = Volley.newRequestQueue(context);
+        this.context = context;
+        requestQueue = Volley.newRequestQueue(context); // Usar el contexto aquí
+        Log.e("ApiRequest", requestQueue.toString());
     }
 
     public void login (String username, String password, final ApiCallback callback){
@@ -31,7 +36,7 @@ public class ApiRequest {
 
         JSONObject jsonBody = new JSONObject();
         try{
-            jsonBody.put("email", username);
+            jsonBody.put("username", username);
             jsonBody.put("password", password);
         }catch ( JSONException e ){
             Log.e("ApiRequest", "Error al crear JSON: ", e);
@@ -60,6 +65,7 @@ public class ApiRequest {
                         }
                     } else {
                         errorMessage = "Error de conexión. Verifique la red.";
+                        Log.e("Eror final", Objects.requireNonNull(error.getMessage()));
                     }
 
                     Log.e("VolleyError", errorMessage);
@@ -71,6 +77,35 @@ public class ApiRequest {
         jsonObjectRequest.setRetryPolicy(policy);
 
         requestQueue.add(jsonObjectRequest);
+    }
+
+    public void getUserData(String accessToken, ApiCallback apiCallback) {
+        String urlGetData = BASE_URL+"profile/";
+
+        // Crear una solicitud GET con el token de acceso
+        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, urlGetData, null,
+                new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        apiCallback.onSuccess(response);
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        apiCallback.onError(error);
+                    }
+                }) {
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                Map<String, String> headers = new HashMap<>();
+                headers.put("Authorization", "Bearer " + accessToken);
+                return headers;
+            }
+        };
+
+        requestQueue.add(request);
+
     }
 
 

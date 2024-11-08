@@ -20,7 +20,7 @@ import java.util.Map;
 
 public class ApiService {
     private final RequestQueue requestQueue;
-    private static final String BASE_URL = "http://127.0.0.1:8000/";
+    private static final String BASE_URL = "http://192.168.0.14:8000/api/";
 
     public ApiService(Context context){
         requestQueue = Volley.newRequestQueue(context);
